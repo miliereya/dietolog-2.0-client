@@ -1,0 +1,17 @@
+.form {
+    @apply px-5 mt-5 flex flex-col;
+    
+    .included {
+        @apply flex flex-col gap-6;
+    }
+}
+
+.file_wrapper {
+    @apply flex justify-between mb-10;
+}
+
+.radio {
+    @apply rounded-lg p-5;
+    
+    border: 2px solid rgb(20, 20, 20);
+}

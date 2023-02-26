@@ -1,0 +1,43 @@
+@import '@/assets/styles/media.scss';
+@import '@/assets/styles/mixins.scss';
+
+.footer {
+	@apply bg-secondary w-full;
+
+	.container {
+		@apply flex items-center justify-between;
+
+		padding: 51px 0;
+
+		@include m-1920 {
+			padding: 45px 0;
+		}
+
+		p {
+			@apply text-white font-semibold;
+
+			font-size: 21px;
+			line-height: 150%;
+			letter-spacing: 0.05em;
+
+			@include m-1920 {
+				font-size: 18px;
+			}
+		}
+
+		img {
+			@apply cursor-pointer transition-transform;
+			width: 34px;
+			height: 48px;
+
+			&:hover {
+				@apply link-animation;
+			}
+
+			@include m-1920 {
+				width: 32px;
+				height: 42px;
+			}
+		}
+	}
+}

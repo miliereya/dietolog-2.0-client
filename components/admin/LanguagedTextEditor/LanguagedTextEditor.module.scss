@@ -1,0 +1,8 @@
+.wrapper {
+    @apply flex justify-between w-auto gap-4;
+
+    > div {
+        @apply w-1/3;
+    }
+}
+

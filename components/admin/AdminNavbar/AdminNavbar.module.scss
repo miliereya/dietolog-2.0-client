@@ -1,0 +1,12 @@
+.navbar {
+	@apply bg-gray-500 p-5 rounded-lg flex gap-5 flex-wrap;
+
+	a {
+		@apply text-white bg-gray-600 p-2 rounded-lg transition-colors;
+
+		&:hover {
+            @apply text-gray-600 bg-white p-2 rounded-lg;
+
+        }
+	}
+}

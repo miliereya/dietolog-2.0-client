@@ -1,0 +1,32 @@
+.record {
+	@apply mx-5 my-6 border-b border-solid pb-3;
+	.date {
+		@apply text-xs;
+	}
+	.name {
+		@apply mt-1 text-2lg;
+	}
+	.phone {
+		@apply mt-2 text-xs;
+
+		> span {
+			@apply font-semibold;
+		}
+	}
+
+	.email {
+		@apply text-xs;
+
+		> span {
+			@apply font-semibold;
+		}
+	}
+
+	.btn_wrapper {
+		@apply flex gap-5;
+
+		button {
+			@apply mt-1;
+		}
+	}
+}

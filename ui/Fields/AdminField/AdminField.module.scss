@@ -1,0 +1,24 @@
+.field {
+	@apply text-left mb-8;
+
+	input {
+		@apply outline-border-none focus:ring-0 bg-transparent text-gray-600 w-full m-0 bg-white p-2 mt-1 rounded-lg;
+
+		&:-webkit-autofill,
+		&:-webkit-autofill:focus {
+			transition: background-color 600000s 0s, color 600000s 0s;
+		}
+	}
+}
+
+.common {
+	@apply relative border-b border-gray-600 transition-colors focus-within:border-primary;
+
+	> label {
+		@apply block;
+
+		> span {
+			@apply text-xs uppercase text-gray-600 block;
+		}
+	}
+}

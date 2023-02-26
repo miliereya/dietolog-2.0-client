@@ -1,0 +1,11 @@
+.form {
+    @apply px-5 mt-5 flex flex-col;
+    
+    .options {
+        @apply flex flex-col gap-6;
+    }
+}
+
+.file_wrapper {
+    @apply flex justify-between;
+}

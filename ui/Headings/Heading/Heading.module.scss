@@ -1,0 +1,15 @@
+@import '@/assets/styles/media.scss';
+
+.heading {
+	@apply text-text;
+
+	font-weight: 400;
+	font-size: 41px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+
+	@include m-1920 {
+		font-size: 36px;
+	}
+}

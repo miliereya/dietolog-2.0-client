@@ -1,0 +1,15 @@
+.section {
+	.container {
+		@apply flex;
+
+		> div {
+			width: 486px;
+
+			.heading {
+				width: 486px;
+                margin-top: 213px;
+				white-space: break-spaces;
+			}
+		}
+	}
+}

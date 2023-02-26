@@ -1,0 +1,31 @@
+.wrapper {
+	padding: 0 20px;
+
+	.table {
+		@apply flex flex-col gap-2;
+
+		.heading {
+			@apply flex justify-between bg-gray-500 p-5 rounded-xl;
+
+			div {
+				@apply font-bold;
+
+				&:last-child {
+					margin-right: 45px;
+				}
+			}
+		}
+
+		.item {
+			@apply flex justify-between bg-gray-500 p-5 rounded-xl items-center;
+
+            .title {
+                @apply text-white font-semibold;
+            }
+
+			.btn_wrapper {
+				@apply flex gap-2;
+			}
+		}
+	}
+}

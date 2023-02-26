@@ -1,0 +1,5 @@
+@mixin m-1920 {
+	@media (max-width: 1919px) {
+		@content;
+	}
+}
